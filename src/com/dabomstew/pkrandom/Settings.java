@@ -173,6 +173,8 @@ public class Settings {
     private int trainersForceFullyEvolvedLevel = 30;
     private boolean trainersLevelModified;
     private int trainersLevelModifier = 0; // -50 ~ 50
+    private boolean eliteFourUniquePokemon;
+    private int eliteFourUniquePokemonNumber = 1; // 0 ~ 2
     private boolean allowTrainerAlternateFormes;
     private boolean swapTrainerMegaEvos;
     private int additionalBossTrainerPokemon = 0;
@@ -1612,6 +1614,22 @@ public class Settings {
     public void setTrainersLevelModifier(int trainersLevelModifier) {
         this.trainersLevelModifier = trainersLevelModifier;
     }
+
+    public boolean isEliteFourUniquePokemon() {
+        return eliteFourUniquePokemon;
+    }
+    public void setEliteFourUniquePokemon(boolean eliteFourUniquePokemon) {
+        this.eliteFourUniquePokemon = eliteFourUniquePokemon;
+    }
+
+    public int getEliteFourUniquePokemonModifier() {
+        return eliteFourUniquePokemonNumber;
+    }
+
+    public void setEliteFourUniquePokemonModifier(int eliteFourUniquePokemonModifier) {
+        this.eliteFourUniquePokemonNumber = eliteFourUniquePokemonModifier;
+    }
+
 
     public boolean isAllowTrainerAlternateFormes() {
         return allowTrainerAlternateFormes;
