@@ -20,7 +20,6 @@ package pptxt;
 /*--  along with this program. If not, see <http://www.gnu.org/licenses/>.  --*/
 /*----------------------------------------------------------------------------*/
 
-import com.dabomstew.pkrandom.constants.Gen7Constants;
 import com.dabomstew.pkrandom.constants.N3DSConstants;
 
 import java.io.ByteArrayOutputStream;

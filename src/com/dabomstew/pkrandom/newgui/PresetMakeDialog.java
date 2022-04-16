@@ -31,7 +31,6 @@ package com.dabomstew.pkrandom.newgui;
 /*----------------------------------------------------------------------------*/
 
 import com.dabomstew.pkrandom.FileFunctions;
-import com.dabomstew.pkrandom.Settings;
 import com.dabomstew.pkrandom.SysConstants;
 import com.dabomstew.pkrandom.Version;
 
