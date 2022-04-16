@@ -1172,9 +1172,7 @@ public class Gen7Constants {
 
     private static void tag(List<Trainer> allTrainers, String tag, int... numbers) {
         for (int num : numbers) {
-            if (allTrainers.size() > (num - 1)) {
-                allTrainers.get(num - 1).tag = tag;
-            }
+            tag(allTrainers, num, tag);
         }
     }
 

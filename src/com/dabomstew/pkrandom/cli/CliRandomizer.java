@@ -85,6 +85,7 @@ public class CliRandomizer {
                             String currentFN = romHandler.loadedFilename();
                             if (currentFN.equals(fh.getAbsolutePath())) {
                                 printError(bundle.getString("GUI.cantOverwriteDS"));
+                                verboseLog.close();
                                 return false;
                             }
                         }

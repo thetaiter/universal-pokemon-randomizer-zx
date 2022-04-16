@@ -75,6 +75,7 @@ public class Launcher {
                 while ((line = br.readLine()) != null) {
                     sb.append(line);
                 }
+                br.close();
                 String logContentStr = sb.toString();
 
                 SwingUtilities.invokeLater(() -> {
